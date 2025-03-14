@@ -10,7 +10,13 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::middleware('api')->group(function () {
-    Route::apiResource('kartu_keluarga', KartuKeluargaController::class);
+    Route::apiResource('kartu_keluarga', KartuKeluargaController::class)->names([
+        'index' => 'kk.index',
+        'store' => 'kk.store',
+        'show' => 'kk.show',
+        'update' => 'kk.update',
+        'destroy' => 'kk.destroy',
+    ]);
     Route::apiResource('penduduk', PendudukController::class)->names([
         'index' => 'ktp.index',
         'store' => 'ktp.store',
