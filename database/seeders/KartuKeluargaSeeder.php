@@ -21,12 +21,7 @@ class KartuKeluargaSeeder extends Seeder
                 'nomor_kk' => '1234567890123456',
                 'kepala_keluarga' => 'Budi Santoso',
                 'alamat' => 'Jl. Merdeka No. 1',
-            ],
-            [
-                'nomor_kk' => '9876543210987654',
-                'kepala_keluarga' => 'Siti Aminah',
-                'alamat' => 'Jl. Sudirman No. 2',
-            ],
+            ]
         ];
 
         foreach ($kks as $kk) {
