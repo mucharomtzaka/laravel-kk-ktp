@@ -5,14 +5,17 @@
 - **MySQL** - Database untuk menyimpan data
 - **Docker** - Untuk containerization
 - **Git** - Version control system
-
+- **vite** - Framework vite dengan template react untuk frontend 
 ---
 
-## 📦 Instalasi dan Konfigurasi
+## Instalasi Konfigurasi Frontend Repo
+``` https://github.com/mucharomtzaka/frontend-kk-ktp.git ``
+
+## 📦 Instalasi dan Konfigurasi backend 
 
 ### 1️⃣ **Clone Repository**
 ```sh
-git clone <repository-url>
+git clone https://github.com/mucharomtzaka/laravel-kk-ktp.git nama-proyek
 cd nama-proyek
 ```
 
