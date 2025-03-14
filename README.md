@@ -118,7 +118,7 @@ Proyek ini menggunakan lisensi **MIT**.
 
 ## 💡 Kontribusi
 Pull Request dan Issue selalu diterima! 😊
-
+- **Mucharom** - [GitHub](https://github.com/mucharomtzaka)
 ---
 
 **Dibuat dengan ❤️ menggunakan Laravel 11 & Docker**
